@@ -1,5 +1,5 @@
 # R-mail
-Receive Emails in your terminal 
+Receive Emails in your terminal.
 
 =--[ WELCOME ]-----------------------------------------------=
 
@@ -35,7 +35,7 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
 
     [ Points to Remember ] 
 
-    => E-mails will be vanished with-n hour automatically
+    => E-mails will be vanished with-in hour automatically
     => DON't use these usernames :
           * abuse@domain
           * webmaster@domain
@@ -43,11 +43,14 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
           * postmaster@domain
           * hostmaster@domain
           * admin@domain
-    
+          
+            These are reserved by the provider for security reasons.
+            
     => YOU ARE SOLELY RESPONSIBLE FOR EVERY ACTIONS.
     => WE DO NOT TAKE ANY RESPONSIBILITY REGARDING THE USE OF THIS R-MAIL.
     
 =--[ MORE ]---------------------------------------------------=
 
-This tool has been created in Python with the use of a Free API provided by [1secmail.com](https://www.1secmail.com/)<space><space>
+This tool has been created in Python with the use of a Free API provided by [1secmail.com](https://www.1secmail.com/)
     
+written by annomroot
