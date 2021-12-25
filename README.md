@@ -26,9 +26,12 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
    * Python - python should be installed on the system to run this.\
               for downloading python go to official site [python.org](https://www.python.org/downloads) download it's leatest version and install in your system.
                   
-   * requests - to install this python module type this in terminal/cmd : 
+   * requests - to install this requests type this in terminal/cmd : 
     
     pip install requests
+   * bs4 - to install this bs4 type this in terminal/cmd : 
+
+    pip install bs4
 
 
 =--[ NOTICE ]------------------------------------------------=
