@@ -39,11 +39,11 @@ def welcome():
 
     Hello world!! 
 
-    This tool is here to help you in recieving E-mails.
+    This tool is here to help you in receiving E-mails.
     N0 Logins, N0 Signups
 
     Just think your username@our_domains and use it anywhere, 
-    and recieve mails in your Terminal.
+    and receive mails in your Terminal.
 ''')
 
 def domains():
@@ -213,7 +213,7 @@ def operate():
                 else:
                     download = False
                 print("\n\tThis will check for new mails every few secs.")
-                c = input("\n\tRun in background to recieve mails live : [y/n] : ")
+                c = input("\n\tRun in background to receive mails live : [y/n] : ")
                 if(c=="Y" or c=="y"):
                     rewoke = int(input("\n\tEnter time interver (in secs.) :"))
                     while True:
