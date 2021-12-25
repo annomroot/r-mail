@@ -1,5 +1,5 @@
 # R-mail
-Receive emails in your terminal 
+Receive Emails in your terminal 
 
 =--[ WELCOME ]-----------------------------------------------=
 
@@ -37,9 +37,5 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
 
 =--[ MORE ]--------------------------------------------=
 
-This has been been created with the use of an Free API provided by [1secmail](https://www.1secmail.com/)\
-
-
-=-------------------------------------------------------=\
-!! ENJOY YOUR DAY !!                                  
-=-------------------------------------------------------=
+This tool has been created with the use of a Free API provided by [1secmail.com](https://www.1secmail.com/)<space><space>
+    
