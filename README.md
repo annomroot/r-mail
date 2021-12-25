@@ -34,19 +34,19 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
 
 =--[ NOTICE ]------------------------------------------------=
 
-   [ Points to Remember ] \ \
+     [ Points to Remember ] 
 
-   => E-mails will be vanished with-n hour automatically\
-   => DON't use these usernames : \
-       * abuse@domain\
-       * webmaster@domain\
-       * contact@domain\
-       * postmaster@domain\
-       * hostmaster@domain\
-       * admin@domain\
+     => E-mails will be vanished with-n hour automatically
+     => DON't use these usernames :
+           * abuse@domain
+           * webmaster@domain
+           * contact@domain
+           * postmaster@domain
+           * hostmaster@domain
+           * admin@domain
     
-   => YOU ARE SOLELY RESPONSIBLE FOR EVERY ACTIONS.\
-   => WE DO NOT TAKE ANY RESPONSIBILITY REGARDING THE USE OF THIS R-MAIL.
+    => YOU ARE SOLELY RESPONSIBLE FOR EVERY ACTIONS.
+    => WE DO NOT TAKE ANY RESPONSIBILITY REGARDING THE USE OF THIS R-MAIL.
     
 
 =--[ MORE ]---------------------------------------------------=
