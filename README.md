@@ -1,14 +1,14 @@
 # R-mail
 Receive emails in your terminal 
 
-=--[WELCOME]-----------------------------------------------=
+=--[ WELCOME ]-----------------------------------------------=
 
 Hello world!! 
  This tool is here to help you in recieving E-mails.
 N0 Logins, N0 Signups
 Just think your username@our_domains and use it anywhere, and recieve mails in your Terminal.
 
-=--[DOMAIN]------------------------------------------------=
+=--[ DOMAIN ]------------------------------------------------=
 
     => Domains you can use : 
         - 1secmail.com
@@ -19,7 +19,7 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
         - xojxe.com
         - yoggm.com
         
-=--[NOTICE]------------------------------------------------=
+=--[ NOTICE ]------------------------------------------------=
 
     [ Points to Remember ]
 
@@ -35,3 +35,7 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
     => YOU'RE SOLOLY RESPONSIBLE WHAT YOU'RE DOING WITH THIS.
     => WE DO NOT TAKE ANY RESPONSIBILITY REGARDING THE USE OF 
        THIS R-MAIL.
+
+=-------------------------------------------------------=
+                       !! ENJOY YOUR DAY !!                                  \
+=-------------------------------------------------------=
