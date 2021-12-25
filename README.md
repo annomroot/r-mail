@@ -35,6 +35,11 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
     => YOU'RE SOLOLY RESPONSIBLE WHAT YOU'RE DOING WITH THIS.
     => WE DO NOT TAKE ANY RESPONSIBILITY REGARDING THE USE OF THIS R-MAIL.
 
+=--[ MORE ]--------------------------------------------=
+
+This has been been created with the use of an Free API provided by [1secmail](https://www.1secmail.com/)\
+
+
 =-------------------------------------------------------=\
 !! ENJOY YOUR DAY !!                                  
 =-------------------------------------------------------=
