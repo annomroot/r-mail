@@ -19,6 +19,18 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
         - xojxe.com
         - yoggm.com
         
+ =--[ INSTALL ]------------------------------------------------=
+
+    =>REQUIREMENTS : 
+    
+       * Python - python should be installed on the system to run this.\
+                  for downloading python go to official site [python.org](https://www.python.org/downloads/)\
+                  download it's leatest version and install in your system.\
+                  
+       * requests - to install this python module type this in terminal/cmd : \
+                    pip install requests
+
+
 =--[ NOTICE ]------------------------------------------------=
 
     [ Points to Remember ]
@@ -35,14 +47,6 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
     => YOU ARE SOLELY RESPONSIBLE FOR EVERY ACTIONS.
     => WE DO NOT TAKE ANY RESPONSIBILITY REGARDING THE USE OF THIS R-MAIL.
     
-=--[ INSTALL ]------------------------------------------------=
-
-   =>REQUIREMENTS 
-       * Python - python should be installed on the system to run this.\
-                  for downloading python go to official site [python.org](https://www.python.org/downloads/)\
-                  download it's leatest version and install in your system.\
-       * requests - to install this python module type this in terminal/cmd : \
-       pip install requests
 
 =--[ MORE ]---------------------------------------------------=
 
