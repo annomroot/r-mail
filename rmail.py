@@ -196,7 +196,7 @@ def operate():
         print("\n\tPlease give a username")
         endLine()
         operate()
-    elif domain == "h" or len(domain)<1:
+    elif domain == "help" or len(domain)<1:
         domains()
         endLine()
         operate()
