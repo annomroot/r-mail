@@ -23,8 +23,9 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
 
     =>REQUIREMENTS : 
     
-       * Python - python should be installed on the system to run this.\
-                  for downloading python go to official site [python.org](https://www.python.org/downloads/)\
+       * Python - python should be installed on the system to run this.
+                  for downloading python go to official site  
+ [python.org](https://www.python.org/downloads/)
                   download it's leatest version and install in your system.\
                   
        * requests - to install this python module type this in terminal/cmd : \
