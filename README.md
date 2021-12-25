@@ -6,7 +6,7 @@ Receive emails in your terminal
 Hello world!! \
 This tool is here to help you in recieving E-mails. \
 N0 Logins, N0 Signups\
-Just think your username@our_domains and use it anywhere, and recieve mails in your Terminal.
+Just think your username@our_domains and use it anywhere, and recieve mails in your Terminal.\
 
 =--[ DOMAIN ]------------------------------------------------=
 
@@ -23,7 +23,7 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
 
     [ Points to Remember ]
 
-    => E-mails will be vanished within hour automatically
+    => E-mails will be vanished with-n hour automatically
     => DON't use these usernames : 
         * abuse@domain
         * webmaster@domain
@@ -33,9 +33,8 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
         * admin@domain
     
     => YOU'RE SOLOLY RESPONSIBLE WHAT YOU'RE DOING WITH THIS.
-    => WE DO NOT TAKE ANY RESPONSIBILITY REGARDING THE USE OF 
-       THIS R-MAIL.
+    => WE DO NOT TAKE ANY RESPONSIBILITY REGARDING THE USE OF THIS R-MAIL.
 
 =-------------------------------------------------------=\
-                       !! ENJOY YOUR DAY !!                                  
+!! ENJOY YOUR DAY !!                                  
 =-------------------------------------------------------=
