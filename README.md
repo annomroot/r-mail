@@ -32,7 +32,7 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
         * hostmaster@domain
         * admin@domain
     
-    => YOU'RE SOLOLY RESPONSIBLE WHAT YOU'RE DOING WITH THIS.
+    => YOU ARE SOLELY RESPONSIBLE FOR EVERY ACTIONS.
     => WE DO NOT TAKE ANY RESPONSIBILITY REGARDING THE USE OF THIS R-MAIL.
 
 =--[ MORE ]--------------------------------------------=
