@@ -21,15 +21,15 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
         
  =--[ INSTALL ]------------------------------------------------=
 
-    =>REQUIREMENTS : 
+   =>REQUIREMENTS : 
     
-       * Python - python should be installed on the system to run this.
-                  for downloading python go to official site  
- [python.org](https://www.python.org/downloads/)
-                  download it's leatest version and install in your system.\
+   * Python - python should be installed on the system to run this.\
+              for downloading python go to official site python.org [python.org](https://www.python.org/downloads)\
+              download it's leatest version and install in your system.
                   
-       * requests - to install this python module type this in terminal/cmd : \
-                    pip install requests
+   * requests - to install this python module type this in terminal/cmd : 
+    
+    pip install requests
 
 
 =--[ NOTICE ]------------------------------------------------=
