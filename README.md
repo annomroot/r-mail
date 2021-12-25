@@ -3,10 +3,10 @@ Receive Emails in your terminal.
 
 =--[ WELCOME ]-----------------------------------------------=
 
-Hello world!! \
-This tool is here to help you in recieving E-mails. \
-N0 Logins, N0 Signups\
-Just think your username@our_domains and use it anywhere, and recieve mails in your Terminal.
+Hello world!! 
+
+![image](/rmail.JPG)
+
 
 =--[ DOMAIN ]------------------------------------------------=
 
@@ -53,6 +53,10 @@ Just think your username@our_domains and use it anywhere, and recieve mails in y
     => WE DO NOT TAKE ANY RESPONSIBILITY REGARDING THE USE OF THIS R-MAIL.
     
 =--[ MORE ]---------------------------------------------------=
+
+This tool is here to help you in recieving E-mails. \
+N0 Logins, N0 Signups\
+Just think your username@our_domains and use it anywhere, and recieve mails in your Terminal.
 
 This tool has been created in Python with the use of a Free API provided by [1secmail.com](https://www.1secmail.com/)
     
