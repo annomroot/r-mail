@@ -32,9 +32,9 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
    * requests - to install this requests type this in terminal/cmd : 
     
     pip install requests
-   * bs4 - to install this bs4 type this in terminal/cmd : 
+   * html2text - to install this html2text type this in terminal/cmd : 
 
-    pip install bs4
+    pip install html2text
   
    Now, you are ready to go, type :
        
