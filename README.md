@@ -1,7 +1,7 @@
 # R-mail
 Receive e-mails in your terminal.
 
-=--[ WELCOME ]-----------------------------------------------=
+=--[ WELCOME ]------------------------------------=
 
 Hello world!! \
 This tool is here to help you in recieving E-mails. \
@@ -11,7 +11,7 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
 ![image](/rmail.JPG)
 
 
-=--[ DOMAIN ]------------------------------------------------=
+=--[ DOMAIN ]-------------------------------------=
 
     => Domains you can use : 
         - 1secmail.com
@@ -21,8 +21,10 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
         - esiix.com
         - xojxe.com
         - yoggm.com
+        - oosln.com
+        - vddaz.com
         
- =--[ INSTALL ]------------------------------------------------=
+ =--[ INSTALLATION ]------------------------------=
 
    REQUIREMENTS : 
     
@@ -43,7 +45,7 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
    to run R-mail , and follow on-screen instructions.\
    You can type help in username field to explore things inside this tool.
 
-=--[ NOTICE ]------------------------------------------------=
+=--[ NOTICE ]------------------------------------=
 
     [ Points to Remember ] 
 
@@ -61,7 +63,7 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
     => YOU ARE SOLELY RESPONSIBLE FOR EVERY ACTIONS.
     => WE DO NOT TAKE ANY RESPONSIBILITY REGARDING THE USE OF THIS R-MAIL.
     
-=--[ MORE ]---------------------------------------------------=
+=--[ MORE ]---------------------------------------=
 
 This tool has been created in Python with the use of a Free API provided by [1secmail.com](https://www.1secmail.com/)
     
