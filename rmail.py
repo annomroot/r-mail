@@ -12,7 +12,9 @@ domainList = [
     "wwjmp.com",
     "esiix.com",
     "xojxe.com",
-    "yoggm.com"
+    "yoggm.com",
+    "oosln.com",
+    "vddaz.com"
 ]
 
 def banner():
