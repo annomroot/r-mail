@@ -29,10 +29,10 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
    * Python - python should be installed on the system to run this.\
               for downloading python go to official site [python.org](https://www.python.org/downloads) download it's leatest version and install in your system.
                   
-   * requests - to install this requests type this in terminal/cmd : 
+   * requests - to install requests type this in terminal/cmd : 
     
     pip install requests
-   * html2text - to install this html2text type this in terminal/cmd : 
+   * html2text - to install html2text type this in terminal/cmd : 
 
     pip install html2text
   
@@ -65,4 +65,4 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
 
 This tool has been created in Python with the use of a Free API provided by [1secmail.com](https://www.1secmail.com/)
     
-written by annomroot
+written by - annomroot
