@@ -24,7 +24,7 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
         - oosln.com
         - vddaz.com
         
- =--[ INSTALLATION ]---------------------------------=
+ =--[ INSTALLATION ]--------------------------------=
 
    REQUIREMENTS : 
     
