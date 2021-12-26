@@ -219,6 +219,7 @@ def operate():
                     while True:
                         getEmails(username,domain,download)
                         print("\n\twating for "+str(rewoke)+" seconds...")
+                        endLine()
                         time.sleep(rewoke)
                 else:
                     getEmails(username,domain,download)
