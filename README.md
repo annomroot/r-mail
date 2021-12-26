@@ -49,7 +49,7 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
 
     [ Points to Remember ] 
 
-    => E-mails will be vanished with-in hour automatically
+    => Mails will be vanished automatically after some time 
     => DON't use these usernames :
           * abuse@domain
           * webmaster@domain
