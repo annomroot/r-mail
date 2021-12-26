@@ -2,7 +2,7 @@ import requests
 import json
 import time
 import os.path
-from bs4 import BeautifulSoup
+import html2text
 
 apiBaseURL = "https://www.1secmail.com/api/v1/"
 domainList = [
@@ -31,7 +31,7 @@ def banner():
 def endLine():
     print('''
     =-------------------------------------------------------=
-    ''')
+''')
 
 def welcome():
     print('''
@@ -118,9 +118,8 @@ def downloadAttachments(rawMail,username,domain):
 
 
 def jsonPraser(data):
-    dat = data.decode('utf8').replace("'", '"')
-    da = json.loads(dat)
-    return da
+    dat = json.loads(data)
+    return dat
 
 def mailFormatter(rawMail):
     mId = rawMail["id"]
@@ -131,14 +130,13 @@ def mailFormatter(rawMail):
     mBody = rawMail["body"]
     mTextBody = rawMail["textBody"]
     mHtmlBody = rawMail["htmlBody"]
-    soup = BeautifulSoup(mBody,features="html5lib")
     print('''
         ID      : '''+str(mId)+'''
         From    : '''+mFrom+'''  
         Subject : '''+mSubject+'''
         Date    : '''+mDate+'''
         Attachments : '''+str(mAttachments)+'''
-        Body : '''+soup.get_text()+'''
+        Body : '''+html2text.html2text(mHtmlBody)+'''
     ''')
 
 #read email by id
@@ -206,6 +204,8 @@ def operate():
             operate()
         else:
             if (domain in domainList):
+                print("\n\tYour Email :",username+"@"+domain)
+                endLine()
                 download = False
                 d = input("\tDownload attachments if available [y/n] : ")
                 if(d=="Y" or d=="y"):
