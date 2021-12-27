@@ -28,6 +28,7 @@ def banner():
         ██╔══██╗╚════╝██║╚██╔╝██║██╔══██║██║██║░░░░░
         ██║░░██║░░░░░░██║░╚═╝░██║██║░░██║██║███████╗
         ╚═╝░░╚═╝░░░░░░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝╚══════╝
+                                              v1.0.2
                                written by @annomroot 
     =--------------------------------------------------=
 ''')
@@ -148,7 +149,8 @@ def updateSettings():
         else:
             domains()
             updateSettings()
-            
+                                                                                                                                                                                                                                               #Author : @annomroot
+         
     prefDict = {
         "pref":{
             "username":username,
