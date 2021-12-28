@@ -60,7 +60,7 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
             These are reserved by the provider for security reasons.
             
     => YOU ARE SOLELY RESPONSIBLE FOR EVERY ACTIONS.
-    => WE DO NOT TAKE ANY RESPONSIBILITY REGARDING THE USE OF THIS R-MAIL.
+    => WE DO NOT TAKE ANY RESPONSIBILITY REGARDING THE USE OF THIS T-MAIL.
     
 =--[ MORE ]------------------------------------------=
 
