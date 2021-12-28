@@ -4,12 +4,11 @@ Receive mails in your terminal.
 =--[ WELCOME ]---------------------------------------=
 
 Hello world!! \
-This tool is here to help you in recieving E-mails. \
+This tool is here to help you in recieving e-mails. \
 N0 Logins, N0 Signups\
 Just think your username@our_domains and use it anywhere, and receive mails in your Terminal.
 
-![image](/rmail.JPG)
-
+![image](/photo.JPG)
 
 =--[ DOMAIN ]----------------------------------------=
 
@@ -40,7 +39,7 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
   
    Now, you are ready to go, type :
        
-    python rmail.py
+    python tmail.py
     
    to run T-mail , and follow on-screen instructions.\
    You can type help in username field to explore things inside this tool.
