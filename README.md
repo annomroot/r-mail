@@ -10,7 +10,15 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
 
 ![image](/banner.JPG)
 
-=--[ DOMAIN ]----------------------------------------=
+=--[ FEATURES ]--------------------------------------=
+>Easy to Install\
+>Easy to Use \
+>Esay to Customize\
+>Lightweight\
+>No Logins or signups\
+>7+ Domains and any username of your choice
+
+=--[ DOMAINS ]---------------------------------------=
 
     => Domains you can use : 
         - 1secmail.com
@@ -42,7 +50,7 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
     python tmail.py
     
    to run T-mail , and follow on-screen instructions.\
-   You can type help in username field to explore things inside this tool.\
+   You can type help in username field to explore things inside this tool.
    
 =--[ USAGE ]----------------------------------------=
 
