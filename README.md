@@ -1,5 +1,5 @@
-# R-mail
-Receive e-mails in your terminal.
+# T-mail
+Receive mails in your terminal.
 
 =--[ WELCOME ]---------------------------------------=
 
