@@ -42,7 +42,7 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
        
     python rmail.py
     
-   to run R-mail , and follow on-screen instructions.\
+   to run T-mail , and follow on-screen instructions.\
    You can type help in username field to explore things inside this tool.
 
 =--[ NOTICE ]---------------------------------------=
