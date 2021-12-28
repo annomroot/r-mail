@@ -44,7 +44,7 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
    to run T-mail , and follow on-screen instructions.\
    You can type help in username field to explore things inside this tool.\
    
-=--[ USAGE ]----------------------------------------=\
+=--[ USAGE ]----------------------------------------=
 
 Settings 
 >To update settings type `python tmail.py pref`
@@ -74,4 +74,4 @@ Options
 
 This tool has been created in Python with the use of a Free API provided by [1secmail.com](https://www.1secmail.com/)
     
-written by - annomroot
+>written by - annomroot
