@@ -50,7 +50,7 @@ Settings
 >To update settings type `python tmail.py pref`
 
 Options
->You can pass username and domain like this `python rmail.py -u your_username -d domain`
+>You can pass username and domain like this `python tmail.py -u your_username -d domain`
 
 =--[ NOTICE ]---------------------------------------=
 
