@@ -42,7 +42,15 @@ Just think your username@our_domains and use it anywhere, and receive mails in y
     python tmail.py
     
    to run T-mail , and follow on-screen instructions.\
-   You can type help in username field to explore things inside this tool.
+   You can type help in username field to explore things inside this tool.\
+   
+=--[ USAGE ]----------------------------------------=\
+
+Settings 
+>To update settings type `python tmail.py pref`
+
+Options
+>You can pass username and domain like this `python rmail.py -u your_username -d domain`
 
 =--[ NOTICE ]---------------------------------------=
 
