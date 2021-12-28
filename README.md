@@ -8,7 +8,7 @@ This tool is here to help you in recieving e-mails. \
 N0 Logins, N0 Signups\
 Just think your username@our_domains and use it anywhere, and receive mails in your Terminal.
 
-![image](/image.JPG)
+![image](/banner.JPG)
 
 =--[ DOMAIN ]----------------------------------------=
 
