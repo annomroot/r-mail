@@ -4,6 +4,7 @@ import time
 import os
 import html2text
 import argparse
+import platform
 
 apiBaseURL = "https://www.1secmail.com/api/v1/"
 domainList = [
@@ -18,7 +19,7 @@ domainList = [
     "vddaz.com"
 ]
 prefFilePath = "pref.json"
-
+emailLists = set()
 def banner():
     print('''	
 
@@ -37,6 +38,12 @@ def endLine():
     print('''
     =-------------------------------------------------------=
     ''')
+
+def clearAll():
+    if(platform.system() == "Windows"):
+        os.system("cls")
+    else:
+        os.system("clear")
 
 def heading(headtxt):
     print('''
@@ -93,6 +100,8 @@ def notice():
 ''')
 
 def showHelpMenu():
+    clearAll()
+    banner()
     welcome()
     domains()
     notice()
@@ -112,12 +121,12 @@ def wait(t):
         t -= 1
 
 def updateSettings():
-    username = input("\tEnter username : ")
+    username = input("\tEnter default username : ")
     if len(username)<1:
         print("\n\tPlease give a user name")
         updateSettings()
     while True:
-        domain = input("\tEnter domain : ")
+        domain = input("\tEnter default domain : ")
         if(domain in domainList):
             print("\n\tThis will check for new mails every few secs.")
             c = input("\n\tRun in background to receive mails live : [y/n] : ")
@@ -162,7 +171,7 @@ def updateSettings():
             "autoLoadPref":autoLoadp,
         },
         "about":{
-            "version":"1.1",
+            "version":"1.0.2",
             "author":"annomroot",
             "lastUpdated":"",
             "publishedOn":"Dec-25-2021"
@@ -177,7 +186,7 @@ def updateSettings():
         Check for new mails  : '''+str(prefDict["pref"]["rewoke"])+''' sec.
         Download Attachments : '''+str(prefDict["pref"]["downloadAttach"])+'''
         Check for updates    : '''+str(prefDict["pref"]["checkUpdate"])+'''
-        Use as master Settings  : '''+str(prefDict["pref"]["autoLoadPref"])+'''s
+        Use as master Settings  : '''+str(prefDict["pref"]["autoLoadPref"])+'''
     ''')
     endLine()
     conf = input("\tIs this Correct - [y/n] : ")
@@ -258,7 +267,7 @@ def getEmailById(username,domain,id):
         content = response.content
         data = jsonPraser(content)
     return data
-                                                                                                                                                                                                                         											                    #Author : @annomroot
+                                                                                                                                                                                                                                            #Author : @annomroot
 
 #get list of emails
 def getEmails(username, domain, download):
@@ -267,26 +276,33 @@ def getEmails(username, domain, download):
     emailData = []
     action = "getMessages"
     emailListURL = apiBaseURL+'?action='+action+'&'+'login='+username+'&'+'domain='+domain
-    response = requests.get(emailListURL, allow_redirects=True)
-    statusCode = response.status_code
-    if statusCode != 200:
-        print("\tEncountered an Error with err code : ",statusCode)    
-    else:
-        content = response.content
-        emails = jsonPraser(content)
-        if len(emails) != 0:
-            print("\t\t"+str(len(emails)),"Mails found...")
-            for email in emails:
-                id = str(email["id"])
-                rawData = getEmailById(username,domain,id)
-                mailFormatter(rawData)
-                emailData.append(rawData)
-            #for downloading attachments
-            if(download):
-                for mail in emailData:
-                    downloadAttachments(mail,username,domain)
+    try:
+        response = requests.get(emailListURL, allow_redirects=True)
+        statusCode = response.status_code
+        if statusCode != 200:
+            print("\tEncountered an Error with err code : ",statusCode)    
         else:
-            print("\n\tNo New Mails.")
+            content = response.content
+            emails = jsonPraser(content)
+            if len(emails) != 0:
+                for email in emails:
+                    id = str(email["id"])
+                    if(id in emailLists):
+                        print("\n\tNo New Mails.")
+                    else:
+                        print("\t\t"+str(len(emails)),"Mails found...")
+                        emailLists.add(id)
+                        rawData = getEmailById(username,domain,id)
+                        mailFormatter(rawData)
+                        emailData.append(rawData)
+                        #for downloading attachments
+                        if(download):
+                            for mail in emailData:
+                                downloadAttachments(mail,username,domain)
+            else:
+                print("\n\tNo New Mails.")
+    except Exception as e:
+        print("\n\tEncountered an error : \n",e)
 
 def operate(loadPrefs):
     username = input("\tUsername : ")
@@ -325,6 +341,8 @@ def operate(loadPrefs):
                             endLine()
                             print("\n\tRechecking for mails in...")
                             wait(rewoke)
+                            clearAll()
+                            banner()
                     else:
                         getEmails(username,domain,download)
                 else:
@@ -343,6 +361,8 @@ def operate(loadPrefs):
                             endLine()
                             print("\n\tRechecking for mails in...")
                             wait(rewoke)
+                            clearAll()
+                            banner()
                     else:
                         getEmails(username,domain,download)
             else:
@@ -382,6 +402,8 @@ if __name__=="__main__":
                         endLine()
                         print("\n\tRechecking for mails in...")
                         wait(rewoke)
+                        clearAll()
+                        banner()
                 else:
                     getEmails(username,domain,download)
                     endLine()
@@ -419,6 +441,8 @@ if __name__=="__main__":
                             endLine()
                             print("\n\tRechecking for mails in...")
                             wait(rewoke)
+                            clearAll()
+                            banner()
                     else:
                         getEmails(username,domain,download)
                 else:
@@ -439,6 +463,8 @@ if __name__=="__main__":
                             endLine()
                             print("\n\tRechecking for mails in...")
                             wait(rewoke)
+                            clearAll()
+                            banner()
                     else:
                         getEmails(username,domain,download)
                     if(runBg):
@@ -447,6 +473,8 @@ if __name__=="__main__":
                             endLine()
                             print("\n\tRechecking for mails in...")
                             wait(rewoke)
+                            clearAll()
+                            banner()
                     else:
                         getEmails(username,domain,download)
                         endLine()
